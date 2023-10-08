@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WritePractice</string>
+    <string name="btnBlackClicked">btnBlack</string>
+    <string name="btnBlueClicked">btnBlue</string>
+    <string name="btnRedClicked">btnRed</string>
+    <string name="btnBrushSizeClicked">btnBrushSize</string>
+    <string name="btnClearClicked">btnClear</string>
+    <string name="btnNextClicked">btnNext</string>
+</resources>
