@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#1A1B23</color>
+    <color name="black">#222222</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background_toolbar">#ECD7BB</color>
-    <color name="red">#FF5252</color>
-    <color name="blue">#536DFE</color>
+    <color name="red">#E04040</color>
+    <color name="blue">#90CEF0</color>
+
+    <!--Theme Colors Basic-->
+    <color name="beige">#F5F5DB</color>
+    <color name="linen_background_splash">#f9ebdc</color>
+    <color name="casgmere">#d8af8d</color>
+    <color name="tan">#bfaa88</color>
+    <color name="indian_khaki">#bfaa88</color>
 </resources>

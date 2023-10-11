@@ -9,6 +9,7 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
+import com.example.writepractice.R
 import com.example.writepractice.view.MainActivity.Companion.paintBrush
 import com.example.writepractice.view.MainActivity.Companion.path
 
@@ -21,7 +22,7 @@ class PaintView : View {
     /*  companion object { No utilizar mas }*/
     var pathList = ArrayList<Path>()
     var colorList = ArrayList<Int>()
-    var currentBrush = Color.BLACK
+    var currentBrush = resources.getColor(R.color.black)
 
 
     constructor(context: Context) : this(context, null) {

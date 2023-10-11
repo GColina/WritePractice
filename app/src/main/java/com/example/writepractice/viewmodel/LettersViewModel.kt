@@ -9,7 +9,7 @@ class LettersViewModel : ViewModel() {
     val lettersModel = MutableLiveData<LettersModel>()
 
     fun randomLetters(){
-        val currentLetters : LettersModel  = LettersProvider.random()
+        val currentLetters : LettersModel  = LettersProvider.nextLetter()
         lettersModel.postValue(currentLetters)
     }
 }

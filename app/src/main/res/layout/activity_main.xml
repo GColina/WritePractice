@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/toolbar_background"
-        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -74,6 +73,7 @@
             android:stepSize="1"
             android:valueFrom="0"
             android:valueTo="100"
+            android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -85,10 +85,12 @@
         android:id="@+id/tvLetterPainter"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        tools:text="a"
         android:fontFamily="@font/raleway_dots_regular"
+        android:textAlignment="center"
         android:gravity="center"
         android:textAllCaps="true"
-        android:textSize="500sp"
+        android:textSize="400sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,10 +104,9 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolBarColors"
-        app:layout_constraintVertical_bias="0.0" />
+        />
 
     <ImageButton
         android:id="@+id/btnClear"
