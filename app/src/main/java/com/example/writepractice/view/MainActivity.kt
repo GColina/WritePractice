@@ -43,45 +43,43 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
     private fun setListeners() {
         binding.btnBlack.setOnClickListener {
-            Toast.makeText(this, resources.getString(R.string.btnBlackClicked), Toast.LENGTH_SHORT)
-                .show()
+            /*Toast.makeText(this, resources.getString(R.string.btnBlackClicked), Toast.LENGTH_SHORT)
+                .show()*/
             paintBrush.color = resources.getColor(R.color.black)
             currentColor(paintBrush.color)
         }
         binding.btnBlue.setOnClickListener {
-            Toast.makeText(this, resources.getString(R.string.btnBlueClicked), Toast.LENGTH_SHORT)
-                .show()
+            /*Toast.makeText(this, resources.getString(R.string.btnBlueClicked), Toast.LENGTH_SHORT)
+                .show()*/
             paintBrush.color = resources.getColor(R.color.blue)
             currentColor(paintBrush.color)
         }
         binding.btnRed.setOnClickListener {
-            Toast.makeText(this, resources.getString(R.string.btnRedClicked), Toast.LENGTH_SHORT)
-                .show()
+           /* Toast.makeText(this, resources.getString(R.string.btnRedClicked), Toast.LENGTH_SHORT)
+                .show()*/
             paintBrush.color = resources.getColor(R.color.red)
             currentColor(paintBrush.color)
         }
         binding.btnClear.setOnClickListener {
-            Toast.makeText(this, resources.getString(R.string.btnClearClicked), Toast.LENGTH_SHORT)
-                .show()
+            /*Toast.makeText(this, resources.getString(R.string.btnClearClicked), Toast.LENGTH_SHORT)
+                .show()*/
             binding.paintView.pathList.clear()
             binding.paintView.colorList.clear()
             path.reset()
         }
         binding.btnNext.setOnClickListener {
-            Toast.makeText(this, resources.getString(R.string.btnNextClicked), Toast.LENGTH_SHORT)
-                .show()
+            /*Toast.makeText(this, resources.getString(R.string.btnNextClicked), Toast.LENGTH_SHORT)
+                .show()*/
             lettersViewModel.randomLetters()
             binding.paintView.pathList.clear()
             binding.paintView.colorList.clear()
             path.reset()
         }
         binding.btnSelectSize.setOnClickListener {
-            Toast.makeText(
-                this, resources.getString(R.string.btnBrushSizeClicked), Toast.LENGTH_SHORT
-            ).show()
+           /* Toast.makeText(this, resources.getString(R.string.btnBrushSizeClicked), Toast.LENGTH_SHORT)
+                .show()*/
             if (!btnSizePressed) {
                 binding.rsSelectSize.visibility = View.VISIBLE
                 binding.rsSelectSize.animate().alpha(1f).translationY(0f).setDuration(200).start()

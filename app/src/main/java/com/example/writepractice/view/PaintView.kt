@@ -2,7 +2,6 @@ package com.example.writepractice.view
 
 import android.content.Context
 import android.graphics.Canvas
-import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Path
 import android.util.AttributeSet
@@ -43,7 +42,8 @@ class PaintView : View {
         paintBrush.isAntiAlias = true/*Brush = pincel y currentbrush es la pintura que escogiste*/
         paintBrush.color = currentBrush
         paintBrush.style = Paint.Style.STROKE/*La union de trazos que se van generando*/
-        paintBrush.strokeJoin = Paint.Join.ROUND/*Brush Size = Pincel tamaño  / Como su nombre indica este es el tamaño del pincel.*//*paintBrush.strokeWidth = 40f*/
+        paintBrush.strokeJoin =
+            Paint.Join.ROUND/*Brush Size = Pincel tamaño  / Como su nombre indica este es el tamaño del pincel.*//*paintBrush.strokeWidth = 40f*/
 
         params = ViewGroup.LayoutParams(
             ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT
