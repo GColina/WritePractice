@@ -1,4 +1,4 @@
-package com.example.writepractice.model
+package com.gcolina.writepractice.model
 
 class LettersProvider {
 

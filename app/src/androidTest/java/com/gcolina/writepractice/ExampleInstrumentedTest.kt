@@ -1,4 +1,4 @@
-package com.example.writepractice
+package com.gcolina.writepractice
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

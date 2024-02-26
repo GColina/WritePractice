@@ -1,4 +1,4 @@
-package com.example.writepractice.view
+package com.gcolina.writepractice.view
 
 import android.content.Context
 import android.graphics.Canvas
@@ -8,9 +8,9 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
-import com.example.writepractice.R
-import com.example.writepractice.view.MainActivity.Companion.paintBrush
-import com.example.writepractice.view.MainActivity.Companion.path
+import com.gcolina.writepractice.R
+import com.gcolina.writepractice.view.MainActivity.Companion.paintBrush
+import com.gcolina.writepractice.view.MainActivity.Companion.path
 
 
 class PaintView : View {
@@ -44,7 +44,6 @@ class PaintView : View {
         paintBrush.style = Paint.Style.STROKE/*La union de trazos que se van generando*/
         paintBrush.strokeJoin =
             Paint.Join.ROUND/*Brush Size = Pincel tamaño  / Como su nombre indica este es el tamaño del pincel.*//*paintBrush.strokeWidth = 40f*/
-
         params = ViewGroup.LayoutParams(
             ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT
         )

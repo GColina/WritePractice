@@ -1,9 +1,9 @@
-package com.example.writepractice.viewmodel
+package com.gcolina.writepractice.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.writepractice.model.LettersModel
-import com.example.writepractice.model.LettersProvider
+import com.gcolina.writepractice.model.LettersModel
+import com.gcolina.writepractice.model.LettersProvider
 
 class LettersViewModel : ViewModel() {
     val lettersModel = MutableLiveData<LettersModel>()

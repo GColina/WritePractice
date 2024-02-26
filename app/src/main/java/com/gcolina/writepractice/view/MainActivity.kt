@@ -1,18 +1,16 @@
-package com.example.writepractice.view
+package com.gcolina.writepractice.view
 
-import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Path
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.Observer
-import com.example.writepractice.R
-import com.example.writepractice.databinding.ActivityMainBinding
-import com.example.writepractice.viewmodel.LettersViewModel
+import com.gcolina.writepractice.R
+import com.gcolina.writepractice.databinding.ActivityMainBinding
+import com.gcolina.writepractice.viewmodel.LettersViewModel
 
 class MainActivity : AppCompatActivity() {
 

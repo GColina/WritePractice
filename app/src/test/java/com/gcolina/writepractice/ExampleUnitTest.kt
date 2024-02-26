@@ -1,4 +1,4 @@
-package com.example.writepractice
+package com.gcolina.writepractice
 
 import org.junit.Test
 

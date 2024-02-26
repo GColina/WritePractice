@@ -98,7 +98,7 @@
 
     <!--Esto es la pizarra-->
 
-    <com.example.writepractice.view.PaintView
+    <com.gcolina.writepractice.view.PaintView
         android:id="@+id/paintView"
         android:layout_width="0dp"
         android:layout_height="0dp"

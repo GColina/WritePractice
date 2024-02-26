@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.writepractice"
+    namespace = "com.gcolina.writepractice"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.writepractice"
+        applicationId = "com.gcolina.writepractice"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
