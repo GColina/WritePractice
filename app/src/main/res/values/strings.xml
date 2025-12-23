@@ -6,4 +6,5 @@
     <string name="btnBrushSizeClicked">btnBrushSize</string>
     <string name="btnClearClicked">btnClear</string>
     <string name="btnNextClicked">btnNext</string>
+    <string name="title_activity_main_compose">MainActivityCompose</string>
 </resources>
